@@ -1,4 +1,4 @@
-FROM ubuntu:22.04.2
+FROM ubuntu:22.04
 
 MAINTAINER Michael Khaimov <khaimovmr@gmail.com>
 
