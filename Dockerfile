@@ -13,7 +13,7 @@ VOLUME /var/log
 
 RUN dpkg --add-architecture i386
 RUN apt update -q
-RUN apt install -qy vim tmux mc tar curl lib32gcc-s1 lib32stdc++6 git git-core htop iptraf strace software-properties-common expect zlib1g:i386 libffi8:i386
+RUN apt install -qy vim tmux mc tar curl telnet netcat lib32gcc-s1 lib32stdc++6 git git-core htop iptraf strace software-properties-common expect zlib1g:i386 libffi8:i386
 
 RUN mkdir /root/steamcmd
 WORKDIR /root/steamcmd
